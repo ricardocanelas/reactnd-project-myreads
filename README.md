@@ -1,13 +1,13 @@
-This project is my implementation of the MyReads app which is the final assessment project for the
+This project is my implementation of MyReads app which is the final assessment project for the
 Udacity's React Fundamentals course, part of the [React Nanodegree Program](https://udacity.com/course/nd019).
 
 MyReads is a bookshelf app that allows the user to select and categorize books they have read, are currently reading, or want to read.
 
 ## Demo
 
-![alt text](https://github.com/ricardocanelas/myreads/blob/master/screen_capture.gif)
+![demo](https://github.com/ricardocanelas/myreads/blob/master/screen_capture.gif)
 
-[www.ricardocanelas.github.io/myreads](https://ricardocanelas.github.io/myreads)
+[https://ricardocanelas.github.io/myreads](https://ricardocanelas.github.io/myreads)
 
 ## Getting Started
 
@@ -23,14 +23,14 @@ The project can be built with npm or yarn, so choose one of the approach bellow 
 
 ### Installing
 
-To download the project follow the instructions bellow
+To download the project follow the instructions bellow:
 
 ```
 git clone https://github.com/ricardocanelas/myreads
 cd myreads
 ```
 
-Install dependencies and run:
+Then install dependencies and run:
 
 ```
 yarn install
@@ -57,10 +57,3 @@ Ricardo Canelas
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-## Acknowledgments
-
-* [Udacity](https://www.udacity.com/)
-* [Georges Boris](https://www.linkedin.com/in/georges-boris-ux)
-* [Guilherme Pontes](https://www.linkedin.com/in/guilhermepontes)
-
