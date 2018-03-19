@@ -1,0 +1,39 @@
+.shelf .books {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.shelf .books .book {
+    margin: 0 48px 32px 0;
+}
+
+.shelf .fade-enter {
+    opacity: 0.01;
+    width: 0px;
+    margin: 0 48px 32px 0;
+}
+
+.shelf .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 700ms ease 200ms;
+}
+
+.shelf .fade-exit {
+    opacity: 1;
+    overflow: hidden;
+    margin:inherit;
+    width: 160px;
+}
+
+.shelf .fade-exit.fade-exit-active {
+    opacity: 0.01;
+    transform: scaleX(0);
+    transform-origin: 0;
+    width: 0px;
+    margin: 0 0 0 0 !important;
+    transition: opacity 400ms, width 500ms ease-out 400ms, margin 500ms ease-out 400ms, transform 500ms ease-out 400ms;
+}

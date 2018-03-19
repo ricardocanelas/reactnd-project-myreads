@@ -1,0 +1,82 @@
+.book-content {
+    position: relative;
+    border: 1px solid #ccc;
+    width: 160px;
+    height: 100%;
+    padding: 16px;
+}
+
+.book-content .book-cover {
+    margin-bottom: 6px;
+    width: 128px;
+    height: 192px; 
+    background-color: #eaeaeb;
+    background-image: url('./../../assets/images/cover-loading.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.book-content .book-cover.no-image {
+    background-image: url('./../../assets/images/cover-no-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.book-content .book-cover .book-cover-img {
+    width: 100%;
+    height: 100%;
+}
+
+.book-content .book-more-info {
+    margin-top: 5px;
+}
+
+.book-content .book-more-info a {
+    cursor: pointer;
+    font-size: 11px;
+    color: #474747;
+    text-decoration: underline;
+}
+
+.book-content .book-title {
+    font-size: 13px; 
+    color: black;
+}
+
+.book-content .book-author {
+    font-size: 11px; 
+    color: rgb(156, 156, 156);
+}
+
+.book-content.book-back {
+    padding: 0px;
+    background-color: #f5f5f5;
+}
+
+.book-content.book-back .book-loading {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.book-content.book-back .book-title {
+    padding: 12px 0 10px 16px;
+    border-bottom: 2px solid #ccc;
+    font-weight: bold;
+}
+
+.book-content .btn-options {
+    position: absolute;
+    top: 185px;
+    right: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(75, 75, 202);
+    padding: 5px 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.book-content .btn-options:hover {
+    background-color: rgb(53, 53, 173);
+}
