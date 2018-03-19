@@ -45,13 +45,13 @@ const About = (props) => {
                     React Nanodegree Program</a>.
                 </p>
 
-                <p>You can fork or see the code in <a href="https://ricardocanelas.github.io/myreads" target="_blank" rel="noopener noreferrer">
-                https://ricardocanelas.github.io/myreads</a></p>
+                <p>You can fork or see the code in <a href="https://www.github.com/ricardocanelas/myreads" target="_blank" rel="noopener noreferrer">
+                https://www.github.com/ricardocanelas/myreads</a></p>
 
                 <h2>Developer</h2>
 
                 <p>I am Brazilian/Portuguese. I am a Full Stack Web Developer with
-                    over few years of professional experience. I also have a Bachelor's degree in Information Systems.
+                    over a few years of professional experience. I also have a Bachelor's degree in Information Systems.
                     I am a multi-disciplinary creator of useful, curious and beautiful things.</p>
 
                 <p>For more information, feel free to check any of these online profiles:</p>
