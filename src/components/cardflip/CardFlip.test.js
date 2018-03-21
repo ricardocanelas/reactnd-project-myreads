@@ -10,8 +10,8 @@ describe('Component: <CardFlip />', () => {
     it('renders without crashing', () => {
         expect(shallow(
             <CardFlip>
-                <div>A</div>
-                <div>B</div>
+                <div>Front</div>
+                <div>Back</div>
             </CardFlip>
         ))
     });
@@ -19,8 +19,8 @@ describe('Component: <CardFlip />', () => {
     it('mounts without crashing', () => {
         expect(mount(
             <CardFlip>
-                <div>A</div>
-                <div>B</div>
+                <div>Front</div>
+                <div>Back</div>
             </CardFlip>
         ))
     });

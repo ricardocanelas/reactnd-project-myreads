@@ -3,7 +3,7 @@ import React from 'react';
 // Style
 import './about.css'
 
-const About = (props) => {
+const About = () => {
 
     const developer = [
         { name: 'GitHub', url: 'https://www.github.com/ricardocanelas' },

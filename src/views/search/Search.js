@@ -1,5 +1,6 @@
 // External Depedencies
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import { Spin } from 'antd';
 import {DebounceInput} from 'react-debounce-input';
 
@@ -98,8 +99,13 @@ class Search extends Component {
 }
 
 Search.defaultProps = {
-    onUpdateBook: () => {},
-    myBooks: []
+    myBooks: [],
+    onUpdateBook: () => {}
+}
+
+Search.propTypes = {
+    myBooks: PropTypes.array,
+    onUpdateBook: PropTypes.func
 }
 
 export default Search
