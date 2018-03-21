@@ -1,6 +1,6 @@
 // External Depedencies
 import React, { Component } from 'react'
-import { Route } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import { Layout, Spin } from 'antd';
 
 // Our Dependencies
@@ -70,27 +70,36 @@ class App extends Component {
                 <Header />
                 <Layout.Content className='main-content'>
                     <Layout className='wrap'>
-                        <Route exact path='/' render={() => ( 
-                            <Shelves 
-                                books={this.state.myBooks} 
-                                onUpdateBook={this.updateBook} 
-                            /> 
-                        )}/>
+                        <Switch>    
+                            <Route exact path='/' render={() => ( 
+                                <Shelves 
+                                    books={this.state.myBooks} 
+                                    onUpdateBook={this.updateBook} 
+                                /> 
+                            )}/>
 
-                        <Route exact path='/search' render={() => ( 
-                            <Search 
-                                myBooks={this.state.myBooks} 
-                                onUpdateBook={this.updateBook} 
-                            /> 
-                        )}/>
+                            <Route exact path='/search' render={() => ( 
+                                <Search 
+                                    myBooks={this.state.myBooks} 
+                                    onUpdateBook={this.updateBook} 
+                                /> 
+                            )}/>
 
-                        <Route exact path='/about' render={() => ( 
-                            <About /> 
-                        )}/>
+                            <Route exact path='/about' render={() => ( 
+                                <About /> 
+                            )}/>
 
-                        <Route path='/book/:id' render={() => ( 
-                            <InfoBook /> 
-                        )}/>
+                            <Route path='/book/:id' render={() => ( 
+                                <InfoBook /> 
+                            )} />
+
+                            <Route render={() => (
+                                <div>
+                                    <h1>Page not found</h1>
+                                    <p>Woops. Looks like this page doesn't exist.</p>
+                                </div>
+                            )} />
+                        </Switch>
                     </Layout>
                 </Layout.Content>
             </div>
