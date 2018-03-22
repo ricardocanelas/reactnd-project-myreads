@@ -1,8 +1,8 @@
 // External Depedencies
 import React, { PureComponent } from 'react';
-import { Link } from 'react-router-dom'
-import { withRouter } from 'react-router'
-import { Spin } from "antd"
+import Link from 'react-router-dom/Link'
+import withRouter from 'react-router/withRouter'
+import Spin from "antd/lib/spin"
 
 // Our Depedencies
 import * as BooksAPI from '../../api/BooksAPI'

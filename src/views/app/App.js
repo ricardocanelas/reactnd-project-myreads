@@ -1,7 +1,9 @@
 // External Depedencies
 import React, { Component } from 'react'
-import { Route, Switch } from 'react-router-dom'
-import { Layout, Spin } from 'antd';
+import Route from 'react-router-dom/Route'
+import Switch from 'react-router-dom/Switch'
+import Layout from 'antd/lib/layout';
+import Spin from 'antd/lib/spin';
 
 // Our Dependencies
 import * as BooksAPI from '../../api/BooksAPI'

@@ -1,8 +1,9 @@
 // External Depedencies
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'react-router-dom'
-import { Icon, Spin } from "antd"
+import Link from 'react-router-dom/Link'
+import Spin from "antd/lib/spin"
+import Icon from "antd/lib/icon"
 
 // Our Depedencies
 import CardFlip from './../cardflip/CardFlip'

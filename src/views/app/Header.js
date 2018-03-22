@@ -1,7 +1,9 @@
 // External Depedencies
 import React from 'react';
-import { Link, withRouter } from 'react-router-dom'
-import { Layout, Menu } from 'antd';
+import withRouter from 'react-router-dom/withRouter'
+import Link from 'react-router-dom/Link'
+import Layout from 'antd/lib/layout';
+import Menu from 'antd/lib/menu';
 
 const HeaderApp = (props) => {
     return (
