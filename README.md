@@ -7,7 +7,7 @@ MyReads is a bookshelf app that allows the user to select and categorize books t
 
 ![demo](https://github.com/ricardocanelas/myreads/blob/master/screen_capture.gif)
 
-[https://ricardocanelas.github.io/myreads](https://ricardocanelas.github.io/myreads)
+[https://ricardocanelas.github.io/reactnd-project-myreads](https://ricardocanelas.github.io/reactnd-project-myreads)
 
 ## Getting Started
 
