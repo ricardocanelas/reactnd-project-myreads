@@ -2,10 +2,10 @@
   "name": "myreads",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ricardocanelas.github.io/myreads",
+  "homepage": "https://ricardocanelas.github.io/reactnd-project-myreads",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricardocanelas/myreads"
+    "url": "https://github.com/ricardocanelas/reactnd-project-myreads"
   },
   "author": "Ricardo Canelas",
   "dependencies": {
